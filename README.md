@@ -100,6 +100,7 @@ YUBIKEY_CHALLENGE="YOUR PASSPHRASE HERE"
 
 Replace the */usr/share/yubikey-luks/ykluks-keyscript* from the yubikey-luks package with the file from this repo.
 The file from the 22.04 is broken ( the YUBIKEY_CHALLENGE part do not work! )
+Make sure the new ykluks-keyscript file has the correct permissions and is executable.
 
 ## Update the *initramfs*
 ```
